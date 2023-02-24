@@ -5,4 +5,6 @@ channels:
 dependencies:
   - python=3.9
   - ipykernel
+  - numpy
+  - matplotlib
 prefix: /home/jovyan/envs/myenv
