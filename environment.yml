@@ -1,0 +1,8 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel
+prefix: /home/jovyan/envs/myenv
