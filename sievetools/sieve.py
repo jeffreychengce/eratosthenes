@@ -17,7 +17,7 @@ def sieve_1(nmax):
             primes_tail = np.array([ n for n in primes_tail[1:]
                                     if n not in non_primes ])
 
-    all_primes = primes_head + primes_tail.tolist()
+        all_primes = primes_head + primes_tail.tolist()
     return all_primes
 
 def sieve_2(nmax):
